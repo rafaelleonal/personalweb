@@ -1,0 +1,77 @@
+/*Estilos globales*/
+body, nav{
+    font-family: 'Lato', sans-serif;
+}
+footer{
+    background-color: var(--bg-dark-light);
+}
+h5{
+    color: var(--bg-yellow);
+}
+.bg-body{
+    background-color: var(--bg-black);
+}
+
+/*Variables*/
+:root {
+    --bg-black: #0A0A0A;
+    --bg-yellow: #EBD190;
+    --bg-white: #ffffff;
+    --paragraph: 22px;
+    --bg-dark-light: #1A1A1A;
+  }
+
+/* Estilos Navbar*/
+
+/*Estilos Main*/
+.container-icons{
+    width: 170px;
+    border-radius: 20px;
+}
+.container-sobremi{
+    height: 800px;
+}
+.p20{
+    font-size: var(--paragraph);
+}
+.img-profile{
+    border-radius: 600px;
+}
+.svg{
+    width: 45px;
+    height: 45px;
+}
+.svg2{
+    width: 45px;
+    height: 38px;
+}
+.cards{
+    background-color: var(--bg-dark-light);
+    padding: 1rem;
+    border-radius: 5px;
+    height: max-height;
+    width: max-width;
+}
+
+/*Separadores*/
+.after::after{
+    content:'';
+    display: flex;
+    position: relative;
+    left: 100px;
+    width: 30%;
+    border: 1px solid black;
+}
+.after2::after{
+    content:'';
+    display: block;
+    width: 35%;
+    border: 1px solid white;
+}
+
+/*media querys*/
+@media (min-width:768px) {
+    .after2::after {
+        width: 7%;
+    }
+}
